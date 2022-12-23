@@ -21,24 +21,16 @@ public class PlayerController {
     @Autowired
     private PlayerRepository playerRepository;
 
+    //http://localhost:8080/players
+
     @GetMapping("/players")
     public List<Player> getAllPlayers() {
         return playerRepository.findAll();
     }
-    
+
     @GetMapping("/players/{id}")
     public Player getPlayerById(@PathVariable Long id) {
         return playerRepository.findById(id).orElse(null);
-    }
-
-    @PostMapping("/players")
-    public Player createPlayer(@RequestBody Player player) {
-        return playerRepository.save(player);
-    }
-
-    @DeleteMapping("/players/{id}")
-    public void deletePlayer(@PathVariable Long id) {
-        playerRepository.deleteById(id);
     }
 
     @PutMapping("/players/{id}")
@@ -52,4 +44,20 @@ public class PlayerController {
         playerToUpdate.setAge(player.getAge());
         return playerRepository.save(playerToUpdate);
     }
+    
+    @PostMapping("/players")
+    public Player createPlayer(@RequestBody Player player) {
+        return playerRepository.save(player);
+    }
+    
+    @DeleteMapping("/players/{id}")
+    public void deletePlayer(@PathVariable Long id) {
+        playerRepository.deleteById(id);
+    }
+    
+    @DeleteMapping("/players")
+    public void deleteAllPlayers() {
+        playerRepository.deleteAll();
+    }
+    
 }
