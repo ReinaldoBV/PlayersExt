@@ -59,3 +59,63 @@
 2022-12-20 09:22:55,862 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@b11354a{STOPPING}[10.0.11,sto=0]
 2022-12-20 09:22:55,883 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@49acc643{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
 2022-12-20 09:22:55,905 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5c1c34f8{/help,null,STOPPED}
+2022-12-30 20:47:23,650 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-30 20:47:28,358 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.proyect:players:0.0.1-SNAPSHOT @ C:\Proyects\PlayersExt\players\pom.xml.
+2022-12-30 20:47:32,292 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-30 20:47:32,345 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:47:32,354 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2022-12-30 20:47:33,855 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.0/spring-boot-starter-security-3.0.0-sources.jar
+2022-12-30 20:47:34,069 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.0/spring-boot-starter-security-3.0.0-sources.jar
+2022-12-30 20:47:34,111 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-security:3.0.0
+2022-12-30 20:47:35,639 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:47:35,640 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:47:35,648 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2022-12-30 20:48:11,521 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-30 20:48:11,526 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:48:11,534 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2022-12-30 20:48:25,051 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-30 20:48:25,645 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.proyect:players:0.0.1-SNAPSHOT @ C:\Proyects\PlayersExt\players\pom.xml.
+2022-12-30 20:48:26,610 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /players/src/main/java
+2022-12-30 20:48:26,612 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /players/src/main/resources
+2022-12-30 20:48:27,176 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /players/src/main/resources
+2022-12-30 20:48:27,177 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /players/src/test/java
+2022-12-30 20:48:27,902 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.0.0/spring-security-config-6.0.0-sources.jar
+2022-12-30 20:48:28,637 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-12-30 20:48:28,866 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.0.0/spring-security-config-6.0.0-sources.jar
+2022-12-30 20:48:28,907 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-config:6.0.0
+2022-12-30 20:48:29,237 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-30 20:48:29,278 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:48:29,287 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2022-12-30 20:48:29,418 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.0.0/spring-security-core-6.0.0-sources.jar
+2022-12-30 20:48:29,971 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.0.0/spring-security-core-6.0.0-sources.jar
+2022-12-30 20:48:29,977 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-core:6.0.0
+2022-12-30 20:48:30,476 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.0.0/spring-security-crypto-6.0.0-sources.jar
+2022-12-30 20:48:30,766 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.0.0/spring-security-crypto-6.0.0-sources.jar
+2022-12-30 20:48:30,777 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-crypto:6.0.0
+2022-12-30 20:48:31,297 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.0.0/spring-security-web-6.0.0-sources.jar
+2022-12-30 20:48:31,937 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.0.0/spring-security-web-6.0.0-sources.jar
+2022-12-30 20:48:31,948 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-web:6.0.0
+2022-12-30 20:48:32,706 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:48:32,707 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:48:32,724 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2022-12-30 20:49:41,386 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.11; built: 2022-06-21T21:12:44.640Z; git: d988aa016e0bb2de6fba84c1659049c72eae3e32; jvm 18.0.1+10
+2022-12-30 20:49:41,414 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2022-12-30 20:49:41,469 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5dd35990{/help,null,AVAILABLE}
+2022-12-30 20:49:41,488 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@114d5d3d{HTTP/1.1, (http/1.1)}{127.0.0.1:49918}
+2022-12-30 20:49:41,492 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@245436f7{STARTING}[10.0.11,sto=0] @181354ms
+2022-12-30 20:50:24,634 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:50:24,634 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:50:24,688 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2022-12-30 20:50:51,370 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:50:51,371 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:50:51,377 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2022-12-30 20:51:02,712 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-30 20:51:03,316 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.proyect:players:0.0.1-SNAPSHOT @ C:\Proyects\PlayersExt\players\pom.xml.
+2022-12-30 20:51:04,385 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /players/src/main/java
+2022-12-30 20:51:04,386 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /players/src/main/resources
+2022-12-30 20:51:04,386 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /players/src/main/resources
+2022-12-30 20:51:04,387 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /players/src/test/java
+2022-12-30 20:51:05,196 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-12-30 20:51:05,938 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-30 20:51:05,986 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-30 20:51:05,994 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
