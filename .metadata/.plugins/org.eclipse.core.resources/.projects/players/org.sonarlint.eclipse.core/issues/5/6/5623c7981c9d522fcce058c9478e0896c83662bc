@@ -1,0 +1,22 @@
+
+y
+java:S1192"JDefine a constant instead of duplicating this literal "Delantero" 8 times.(­˜ØýH¼RCRITICALZ
+CODE_SMELL
+o
+java:S2259"EA "NullPointerException" could be thrown; "orElse()" can return null.(íð‚ÔÿÿÿÿÿHÅRMAJORZBUG
+o
+java:S2259"EA "NullPointerException" could be thrown; "orElse()" can return null.(ôØêÙÿÿÿÿÿHÆRMAJORZBUG
+o
+java:S2259"EA "NullPointerException" could be thrown; "orElse()" can return null.(ôØêÙÿÿÿÿÿHÇRMAJORZBUG
+o
+java:S2259"EA "NullPointerException" could be thrown; "orElse()" can return null.(íð‚ÔÿÿÿÿÿHÈRMAJORZBUG
+j
+java:S2259"EA "NullPointerException" could be thrown; "orElse()" can return null.(‹µöÁHÉRMAJORZBUG
+i	java:S106"9Replace this use of System.out or System.err by a logger.(Þ“Ÿ˜þÿÿÿÿHÊRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ôØêÙÿÿÿÿÿHËRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(íð‚ÔÿÿÿÿÿHÌRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(‹µöÁHÍRMAJORZ
+CODE_SMELL

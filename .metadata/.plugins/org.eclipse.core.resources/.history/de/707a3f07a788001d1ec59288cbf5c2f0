@@ -1,0 +1,12 @@
+package com.proyect.players.security;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;
+import org.springframework.security.web.server.MatcherSecurityWebFilterChain;
+
+@Configuration
+@EnableWebSecurity
+public class WebSecurityConfig extends MatcherSecurityWebFilterChain {
+    
+}
