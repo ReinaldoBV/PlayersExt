@@ -2,6 +2,7 @@ package com.proyect.players;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.util.Date;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
@@ -21,13 +22,13 @@ class PlayersApplicationTests {
 	@Test
 	public void createPlayers() {
 		
-		Player player1 = new Player("Peter", "Parker", "Goalkeeper", "Barcelona", 1, 20, 123456789);
-		Player player2 = new Player("Tony", "Stark", "Defender", "Real Madrid", 2, 30, 987654321);
-		Player player3 = new Player("Steve", "Rogers", "Midfielder", "Manchester City", 3, 40, 123456789);
-		Player player4 = new Player("Bruce", "Banner", "Forward", "Liverpool", 4, 50, 987654321);
-		Player player5 = new Player("Natasha", "Romanoff", "Goalkeeper", "Bayern Munich", 5, 60, 123456789);
-		Player player6 = new Player("Thor", "Odinson", "Defender", "Juventus", 6, 70, 987654321);
-		Player player7 = new Player("Clint", "Barton", "Midfielder", "PSG", 7, 80, 123456789);
+        Player player1 = new Player("Peter", "Parker", "Goalkeeper", "Barcelona", 1, 20, 123456789, new Date (1/1/2001), true);
+		Player player2 = new Player("Tony", "Stark", "Defender", "Real Madrid", 2, 30, 987654321, new Date(12/10/1982), true);
+		Player player3 = new Player("Steve", "Rogers", "Midfielder", "Manchester City", 3, 40, 123456789, new Date (27/7/1917), false);
+		Player player4 = new Player("Bruce", "Banner", "Forward", "Liverpool", 4, 50, 987654321, new Date (13/3/1973), true);
+		Player player5 = new Player("Natasha", "Romanoff", "Goalkeeper", "Bayern Munich", 5, 60, 123456789, new Date (9/9/1999), true);
+		Player player6 = new Player("Thor", "Odinson", "Defender", "Juventus", 6, 70, 987654321, new Date(15/5/1925), false);
+		Player player7 = new Player("Clint", "Barton", "Midfielder", "PSG", 7, 80, 123456789, new Date(8/8/1998), true);
 		playerRepository.save(player1);
 		playerRepository.save(player2);
 		playerRepository.save(player3);

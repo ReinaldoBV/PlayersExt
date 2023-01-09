@@ -1,5 +1,8 @@
 package com.proyect.players.entity;
 
+import java.util.Date;
+
+import jakarta.annotation.Nonnull;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -11,20 +14,40 @@ public class Player {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Nonnull
     private String name;
+    @Nonnull
     private String lastName;
     private String position;
     private String team;
     private int number;
     private int age;
     private int cellPhone;
+    private Date bornDate;
+    private boolean active;
     
+    
+    /**
+     * Constructor vacío (sin argumentos) para crear Player.
+     */
     public Player() {
     }
 
-    
-
-    public Player(String name, String lastName, String position, String team, int number, int age, int cellPhone) {
+    /**
+     * Constructor con argumentos para crear Player.
+     *
+     * @param name the name
+     * @param lastName the last name
+     * @param position the position
+     * @param team the team
+     * @param number the number
+     * @param age the age
+     * @param cellPhone the cell phone
+     * @param bornDate the born date
+     * @param active the active
+     */
+    public Player(String name, String lastName, String position, String team, int number, int age, int cellPhone,
+            Date bornDate, boolean active) {
         this.name = name;
         this.lastName = lastName;
         this.position = position;
@@ -32,19 +55,18 @@ public class Player {
         this.number = number;
         this.age = age;
         this.cellPhone = cellPhone;
+        this.bornDate = bornDate;
+        this.active = active;
     }
 
-
-
-    public int getCellPhone() {
-        return cellPhone;
+    public Long getId() {
+        return id;
     }
 
-    public void setCellPhone(int cellPhone) {
-        this.cellPhone = cellPhone;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    
     public String getName() {
         return name;
     }
@@ -93,13 +115,36 @@ public class Player {
         this.age = age;
     }
 
+    public int getCellPhone() {
+        return cellPhone;
+    }
 
+    public void setCellPhone(int cellPhone) {
+        this.cellPhone = cellPhone;
+    }
+
+    public Date getBornDate() {
+        return bornDate;
+    }
+
+    public void setBornDate(Date bornDate) {
+        this.bornDate = bornDate;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
 
     @Override
     public String toString() {
-        return "Player [id=" + id + ", name=" + name + ", lastName=" + lastName + ", position=" + position + ", team="
-                + team + ", number=" + number + ", age=" + age + ", cellPhone=" + cellPhone + "]";
+        return "Player [name=" + name + ", lastName=" + lastName + ", position=" + position + ", team=" + team
+                + ", number=" + number + ", age=" + age + ", cellPhone=" + cellPhone + ", bornDate=" + bornDate
+                + ", active=" + active + "]";
     }
-
     
+        
 }

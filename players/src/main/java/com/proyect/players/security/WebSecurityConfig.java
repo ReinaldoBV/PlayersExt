@@ -11,6 +11,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig {
+    
 
     @Bean
     public InMemoryUserDetailsManager userDetailsService() {

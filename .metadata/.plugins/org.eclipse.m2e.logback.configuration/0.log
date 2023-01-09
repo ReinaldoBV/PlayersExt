@@ -218,3 +218,70 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.postgresq
 2023-01-06 10:45:34,010 [Worker-475: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-01-06 10:45:34,011 [Worker-475: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-01-06 10:45:34,022 [Worker-475: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-08 12:58:16,372 [Worker-610: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.proyect:players:0.0.1-SNAPSHOT @ C:\Proyects\PlayersExt\players\pom.xml.
+2023-01-08 12:58:18,412 [Worker-610: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:58:18,413 [Worker-610: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:58:18,418 [Worker-610: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-08 12:58:22,091 [Worker-611: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:58:22,135 [Worker-611: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:58:22,140 [Worker-611: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-08 12:58:23,576 [Worker-607: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-01-08 12:58:24,296 [Worker-607: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.proyect:players:0.0.1-SNAPSHOT @ C:\Proyects\PlayersExt\players\pom.xml.
+2023-01-08 12:58:25,670 [Worker-607: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /players/src/main/java
+2023-01-08 12:58:25,671 [Worker-607: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /players/src/main/resources
+2023-01-08 12:58:25,672 [Worker-607: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /players/src/main/resources
+2023-01-08 12:58:25,673 [Worker-607: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /players/src/test/java
+2023-01-08 12:58:26,452 [Worker-607: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2023-01-08 12:58:27,339 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:58:27,363 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:58:27,369 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-08 17:16:53,379 [Worker-644: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.proyect:players:0.0.1-SNAPSHOT @ C:\Proyects\PlayersExt\players\pom.xml.
+2023-01-08 17:16:54,837 [Worker-644: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:16:55,195 [Worker-644: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:16:55,205 [Worker-644: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-08 17:16:57,083 [Worker-648: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31-sources.jar
+2023-01-08 17:16:57,371 [Worker-650: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:16:57,372 [Worker-650: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:16:57,382 [Worker-650: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-08 17:16:57,950 [Worker-648: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31-sources.jar
+2023-01-08 17:16:57,958 [Worker-648: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.mysql:mysql-connector-j:8.0.31
+2023-01-08 17:16:59,031 [Worker-648: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:16:59,033 [Worker-648: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:16:59,046 [Worker-648: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-08 17:17:26,612 [Worker-649: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-01-08 17:17:27,108 [Worker-649: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.proyect:players:0.0.1-SNAPSHOT @ C:\Proyects\PlayersExt\players\pom.xml.
+2023-01-08 17:17:28,827 [Worker-649: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /players/src/main/java
+2023-01-08 17:17:28,828 [Worker-649: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /players/src/main/resources
+2023-01-08 17:17:28,828 [Worker-649: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /players/src/main/resources
+2023-01-08 17:17:28,829 [Worker-649: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /players/src/test/java
+2023-01-08 17:17:30,114 [Worker-649: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2023-01-08 17:17:32,680 [Worker-645: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:17:32,717 [Worker-645: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:17:32,724 [Worker-645: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-08 17:19:21,952 [Worker-645: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.proyect:players:0.0.1-SNAPSHOT @ C:\Proyects\PlayersExt\players\pom.xml.
+2023-01-08 17:19:22,987 [Worker-645: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:19:22,988 [Worker-645: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:19:22,994 [Worker-645: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-08 17:19:25,022 [Worker-649: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:19:25,056 [Worker-649: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:19:25,061 [Worker-649: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-08 17:19:49,596 [Worker-651: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-01-08 17:19:49,949 [Worker-651: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.proyect:players:0.0.1-SNAPSHOT @ C:\Proyects\PlayersExt\players\pom.xml.
+2023-01-08 17:19:50,929 [Worker-651: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /players/src/main/java
+2023-01-08 17:19:50,930 [Worker-651: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /players/src/main/resources
+2023-01-08 17:19:50,931 [Worker-651: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /players/src/main/resources
+2023-01-08 17:19:50,931 [Worker-651: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /players/src/test/java
+2023-01-08 17:19:51,903 [Worker-651: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2023-01-08 17:19:52,430 [Worker-649: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:19:52,591 [Worker-649: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:19:52,598 [Worker-649: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-09 15:40:34,599 [Worker-778: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.proyect:players:0.0.1-SNAPSHOT @ C:\Proyects\PlayersExt\players\pom.xml.
+2023-01-09 15:40:37,376 [Worker-778: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-09 15:40:37,549 [Worker-778: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-09 15:40:37,562 [Worker-778: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-09 15:41:04,372 [Worker-785: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-09 15:41:04,402 [Worker-785: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-09 15:41:04,409 [Worker-785: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
+2023-01-09 15:42:08,525 [Worker-779: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-09 15:42:08,536 [Worker-779: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-09 15:42:08,542 [Worker-779: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Proyects\PlayersExt\players\src\test\resources
