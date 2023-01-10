@@ -1,22 +1,20 @@
 
+i	java:S106 "9Replace this use of System.out or System.err by a logger.(íğ‚ÔÿÿÿÿÿHÊRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ôØêÙÿÿÿÿÿHÇRMAJORZ
+CODE_SMELL
+v
+java:S1764"JCorrect one of the identical sub-expressions on both sides of operator "/"(û¦Ì§8ËîÙ0HĞRMAJORZBUG
+i	java:S106"9Replace this use of System.out or System.err by a logger.(Ş“Ÿ˜şÿÿÿÿHÌRMAJORZ
+CODE_SMELL
+d	java:S106!"9Replace this use of System.out or System.err by a logger.(‹µöÁHËRMAJORZ
+CODE_SMELL
+v
+java:S1764"JCorrect one of the identical sub-expressions on both sides of operator "/"(ˆöõ…8ËîÙ0HÒRMAJORZBUG
 y
-java:S1192"JDefine a constant instead of duplicating this literal "Delantero" 8 times.(­˜ØıH¼RCRITICALZ
+java:S1192"JDefine a constant instead of duplicating this literal "Delantero" 8 times.(û¦Ì§H¼RCRITICALZ
 CODE_SMELL
-o
-java:S2259"EA "NullPointerException" could be thrown; "orElse()" can return null.(íğ‚ÔÿÿÿÿÿHÅRMAJORZBUG
-o
-java:S2259"EA "NullPointerException" could be thrown; "orElse()" can return null.(ôØêÙÿÿÿÿÿHÆRMAJORZBUG
-o
-java:S2259"EA "NullPointerException" could be thrown; "orElse()" can return null.(ôØêÙÿÿÿÿÿHÇRMAJORZBUG
-o
-java:S2259"EA "NullPointerException" could be thrown; "orElse()" can return null.(íğ‚ÔÿÿÿÿÿHÈRMAJORZBUG
-j
-java:S2259"EA "NullPointerException" could be thrown; "orElse()" can return null.(‹µöÁHÉRMAJORZBUG
-i	java:S106"9Replace this use of System.out or System.err by a logger.(Ş“Ÿ˜şÿÿÿÿHÊRMAJORZ
-CODE_SMELL
-i	java:S106"9Replace this use of System.out or System.err by a logger.(ôØêÙÿÿÿÿÿHËRMAJORZ
-CODE_SMELL
-i	java:S106"9Replace this use of System.out or System.err by a logger.(íğ‚ÔÿÿÿÿÿHÌRMAJORZ
-CODE_SMELL
-d	java:S106"9Replace this use of System.out or System.err by a logger.(‹µöÁHÍRMAJORZ
-CODE_SMELL
+v
+java:S1764"JCorrect one of the identical sub-expressions on both sides of operator "/"(ÓÎëÿ8ËîÙ0HÎRMAJORZBUG
+{
+java:S1764"JCorrect one of the identical sub-expressions on both sides of operator "/"(´ óÁùÿÿÿÿ8±ê˜Ù0HõRMAJORZBUG
