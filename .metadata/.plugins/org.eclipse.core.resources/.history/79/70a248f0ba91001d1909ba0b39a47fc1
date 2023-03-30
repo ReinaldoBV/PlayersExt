@@ -1,0 +1,5 @@
+package com.proyect.players.security.service;
+
+public class JwtApplication {
+
+}

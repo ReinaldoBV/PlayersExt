@@ -1,0 +1,55 @@
+
+j
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8Õ±¾Ú0HÒRMINORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Õ±¾Ú0HÔRMINORZ
+CODE_SMELL
+‹
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8Õ±¾Ú0HÖRMINORZ
+CODE_SMELL
+{
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8Õ±¾Ú0HØRMINORZ
+CODE_SMELL
+•
+java:S1128"]Remove this unused import 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder'.(åÅÚ…ûÿÿÿÿ8Õ±¾Ú0HÚRMINORZ
+CODE_SMELL
+‘
+java:S1128"YRemove this unused import 'org.springframework.security.crypto.password.PasswordEncoder'.(‰¡ßáÿÿÿÿÿ8Õ±¾Ú0HÜRMINORZ
+CODE_SMELL
+}
+java:S1128"KRemove this unused import 'org.springframework.web.cors.CorsConfiguration'.(î¤·`8Õ±¾Ú0HŞRMINORZ
+CODE_SMELL
+‰
+java:S1128"QRemove this unused import 'org.springframework.web.cors.CorsConfigurationSource'.(ŒºÏøşÿÿÿÿ8Õ±¾Ú0HàRMINORZ
+CODE_SMELL
+‘
+java:S1128"YRemove this unused import 'org.springframework.web.cors.UrlBasedCorsConfigurationSource'.(µ²İûùÿÿÿÿ8Õ±¾Ú0HâRMINORZ
+CODE_SMELL
+‡
+java:S1128"ORemove this unused import 'com.proyect.players.security.jwt.JwtAuthEntryPoint'.(ÉÒ€ùÿÿÿÿ8Õ±¾Ú0HäRMINORZ
+CODE_SMELL
+
+java:S1128"NRemove this unused import 'com.proyect.players.security.jwt.JwtRequestFilter'.(›ı´ª8Õ±¾Ú0HæRMINORZ
+CODE_SMELL
+
+java:S1128"XRemove this unused import 'com.proyect.players.security.service.UserDetailsServiceImpl'.(Î«˜ùÿÿÿÿ8Õ±¾Ú0HèRMINORZ
+CODE_SMELL
+~
+java:S1128"KRemove this unused import 'springfox.documentation.builders.PathSelectors'.(âİ¸ñ8Õ±¾Ú0HêRMINORZ
+CODE_SMELL
+
+java:S1128"URemove this unused import 'springfox.documentation.builders.RequestHandlerSelectors'.(òßª¿ıÿÿÿÿ8Õ±¾Ú0HìRMINORZ
+CODE_SMELL
+|
+java:S1128"DRemove this unused import 'springfox.documentation.service.ApiInfo'.(ŸÈ÷àûÿÿÿÿ8Õ±¾Ú0HîRMINORZ
+CODE_SMELL
+w
+java:S1128"DRemove this unused import 'springfox.documentation.service.Contact'.(×÷’Ã8Õ±¾Ú0HğRMINORZ
+CODE_SMELL
+}
+java:S1128"JRemove this unused import 'springfox.documentation.spi.DocumentationType'.(ÉêÉ¥8Õ±¾Ú0HòRMINORZ
+CODE_SMELL
+
+java:S1128"NRemove this unused import 'springfox.documentation.spring.web.plugins.Docket'.(‡éÔå8Õ±¾Ú0HôRMINORZ
+CODE_SMELL

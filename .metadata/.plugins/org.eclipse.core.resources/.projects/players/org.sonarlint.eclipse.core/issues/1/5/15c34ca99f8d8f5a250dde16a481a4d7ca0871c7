@@ -1,0 +1,8 @@
+
+s	java:S125^"<This block of commented-out lines of code should be removed.(½ñºœùÿÿÿÿ8‘¯½Ú0H®RMAJORZ
+CODE_SMELL
+n	java:S125S"<This block of commented-out lines of code should be removed.(”®Ú8‘¯½Ú0H­RMAJORZ
+CODE_SMELL
+‰
+java:S1192;"SDefine a constant instead of duplicating this literal "https://google.com" 3 times.(ÆÎô8‘¯½Ú0H©RCRITICALZ
+CODE_SMELL

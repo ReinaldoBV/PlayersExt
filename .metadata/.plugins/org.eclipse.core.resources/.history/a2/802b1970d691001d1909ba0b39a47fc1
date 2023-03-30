@@ -1,0 +1,15 @@
+package com.proyect.players.security.service;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+@SpringBootApplication
+@EnableJpaRepositories("com.proyect.players.repository")
+public class JwtApplication {
+	
+	public static void main(String[] args) {
+		SpringApplication.run(JwtApplication.class, args);
+	}
+
+}

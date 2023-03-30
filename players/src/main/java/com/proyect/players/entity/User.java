@@ -1,13 +1,16 @@
 package com.proyect.players.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.springframework.stereotype.Repository;
 
 @Entity
+@Repository
 @Table(name = "users")
 public class User {
 
@@ -15,11 +18,15 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
+
+    @Column(name = "username")
     private String username;
+
+    @Column(name = "password")
     private String password;
+    
+    @Column(name = "email")
     private String email;
-    private int rol;
-    private boolean active;
     
     public User() {
     }
@@ -28,8 +35,6 @@ public class User {
         this.username = username;
         this.password = password;
         this.email = email;
-        this.rol = rol;
-        this.active = active;
     }
 
     public Long getId() {
@@ -64,26 +69,9 @@ public class User {
         this.email = email;
     }
 
-    public int getRol() {
-        return rol;
-    }
-
-    public void setRol(int rol) {
-        this.rol = rol;
-    }
-
-    public boolean isActive() {
-        return active;
-    }
-
-    public void setActive(boolean active) {
-        this.active = active;
-    }
-
     @Override
     public String toString() {
-        return "User [id=" + id + ", username=" + username + ", password=" + password + ", email=" + email + ", rol="
-                + rol + ", active=" + active + "]";
+        return "User [id=" + id + ", username=" + username + ", password=" + password + ", email=" + email + "]";
     }
 
     
